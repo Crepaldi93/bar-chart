@@ -79,7 +79,7 @@ const drawBars = () => {
      .on("mouseover", (d) => {
        tooltip.attr("data-date", d[0])
               .style("opacity", 0.9)
-              .style("top", d3.event.pageY - 30 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
               .style("left", d3.event.pageX + "px")
               .html(`Date: ${d[0]}<br>GDP: ${d[1]}`)
      })
