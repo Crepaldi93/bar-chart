@@ -23,6 +23,7 @@ svg {
   box-shadow: 1px 1px 10px;
   border-radius: 2px;
   background-color: white;
+  pointer-events: none;
 }
 
 .bar {
